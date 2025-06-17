@@ -10,18 +10,22 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Mihir Borkar</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <li><a href="#journey">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Mihir Borkar</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -30,26 +34,36 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#journey" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#publications" onclick="toggleMenu()">Publications</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+
         </div>
       </div>
     </nav>
+
+
+
+
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img src="./assets/linkedin.jpeg" alt="John Doe profile picture" />
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">John Doe</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <p class="section__text__p1">Hi, I'm</p>
+        <h1 class="title">Mihir Borkar</h1>
+        <p class="section__text__p2">Data Science Student @ UC Irvine</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/Mihir_Borkar____Data_Science_Resume.pdf')"
           >
-            Download CV
+            View Resume
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
@@ -60,202 +74,131 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://linkedin.com/in/mihir-borkar'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="location.href='https://github.com/mihirb1'"
           />
         </div>
       </div>
     </section>
+
+
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
-        <div class="section__pic-container">
+        <!-- <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src="./assets/japan.jpg"
             alt="Profile picture"
             class="about-pic"
           />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
-            </div>
-          </div>
+        </div> -->
+
+
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+I am a data-driven and collaborative rising senior in Data Science at UC Irvine with a 3.8 GPA, previously earning a 3.9 at San Jose State University. I am currently pursuing research at the Ding Lab, where I contribute to an AI-based GUI for segmenting cell nuclei, with plans to expand to full-cell segmentation.
+            </p>
+            <p>
+I am especially interested in AI agents, LLMs, and cloud systems to build intelligent solutions across domains such as healthcare and automation. At MIT, I co-authored a published study on fairness-accuracy tradeoffs in lending systems, applying NSGA-II and Particle Swarm Optimization. I have developed scalable AI tools and cloud pipelines through internships, hackathons, and projects using AWS Lambda, Apache Spark, Flask, and Docker.
+            </p>
+            <p>
+I am currently pursuing the AWS Data Engineer Associate certification and seeking opportunities to apply machine learning, cloud infrastructure, and AI agents to real-world challenges. I am open to full-time and internship opportunities—feel free to contact me below.
             </p>
           </div>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
     </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
+
+
+    <section id="journey">
+      <p class="section__text__p1">Explore My Experience</p>
+      <h1 class="title">My Journey</h1>
+      <div class="timeline-wrapper">
+        <div class="timeline-container">
+
+
+          <!-- Hackathon Participant -->
+          <div class="timeline-entry">
+            <div class="timeline-icon">
+              <span>&#10003;</span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-card">
+                <div class="timeline-header">
+                  <h2>Hackathon Participant</h2>
+                  <h3>Hack at University of California, Irvine – Irvine, CA</h3>
+                  <h3>September 2024 - Present</h3>
                 </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
+                <ul>
+                  <li>Led teams in IrvineHacks, ZotHacks, and WebReg Hackathon to build two full-stack apps in 48 hours</li>
+                  <li>Built ZotChef, a receipt-to-recipe app using Tesseract OCR and Google Gemini-1.5, achieving 93% accuracy</li>
+                  <li>Developed SmartCart, a shopping assistant scraping 1,000+ listings and using Google Maps API to find nearby grocery store locations with the cheapest prices</li>
+                  <li>Reduced page load times by 30% by deploying both projects on AWS EC2 with Nginx, ensuring 99.5% uptime</li>
+                </ul>
+                <img src="./assets/hack.png" alt="Hack UCI logo" class="timeline-logo" />
+              </div>
             </div>
           </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+
+
+          <!-- MIT Research Assistant -->
+          <div class="timeline-entry">
+            <div class="timeline-icon">
+              <span>&#10003;</span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-card">
+                <div class="timeline-header">
+                  <h2>Research Assistant</h2>
+                  <h3>Massachusetts Institute of Technology – Cambridge, MA</h3>
+                  <h3>Sep 2022 – Sep 2024</h3>
                 </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
+                <ul>
+                  <li>Achieved 94.29% accuracy with fairness metrics (0.04 individual, 0.06 group) using XGBoost with ROC-based postprocessing on the German Credit dataset</li>
+                  <li>Designed an end-to-end evaluation framework using NSGA-II, Genetic Algorithms, and Particle Swarm Optimization for fairness/accuracy tradeoff modeling</li>
+                  <li>Applied advanced causal inference and AUC-based metrics for robust classification benchmarking</li>
+                  <li>Published peer-reviewed findings in MAKE Journal: <a href="https://www.mdpi.com/2504-4990/6/3/105" target="_blank">mdpi.com/2504-4990/6/3/105</a></li>
+                </ul>
+                <img src="./assets/mit.jpg" alt="MIT logo" class="timeline-logo" />
+              </div>
             </div>
           </div>
+
+
+          <!-- Google Internship -->
+          <div class="timeline-entry">
+            <div class="timeline-icon">
+              <span>&#10003;</span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-card">
+                <div class="timeline-header">
+                  <h2>Software Engineer Intern</h2>
+                  <h3>Google – San Jose, CA</h3>
+                  <h3>June 2022 – August 2022</h3>
+                </div>
+                <ul>
+                  <li>Created 12 interactive websites using Python, HTML, CSS, and JavaScript, incorporating Bulma for enhanced UI</li>
+                  <li>Designed a Connect-4 website featuring a Minimax machine learning algorithm, allowing users to play against a computer</li>
+                  <li>Implemented a real-time multiplayer mode using WebSocket for server-to-client communication</li>
+                </ul>
+                <img src="./assets/google.jpg" alt="Google logo" class="timeline-logo" />
+              </div>
+            </div>
+          </div>
+
+
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
+      </div>  
     </section>
+
+
+   
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
@@ -264,74 +207,201 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/mediscan.png"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">MediScan AI</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/Jongmin035/MedScanAI'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://www.youtube.com/watch?v=AOd4VMXIYWQ'"
               >
                 Live Demo
               </button>
             </div>
+          <div class="project-summary">
+            <p><strong>MediScanAI: Clinical QA + Recommendation System | Python, SageMaker, S3, Lambda, Textract, React</strong></p>
+            <p>• Trained a Random Forest classifier on structured EHR data using SageMaker, achieving 91% classification accuracy</p>
+            <p>• Parsed unstructured clinical documents using Textract + Lambda, transforming extracted text into an S3-based structured knowledge base</p>
+            <p>• Delivered real-time patient Q&A functionality using an LLM-based chatbot trained on a curated dataset of 300+ treatments</p>
+            <p>• Integrated LLM responses via a RAG pipeline using structured data, powered by a Bedrock AI agent (Claude 3.7)</p>
+          </div>
+
+
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/zottripper.png"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">ZotTripper</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/kyleyuen-git/ZotTripper'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://docs.google.com/presentation/d/1yNMBA6i4kUA9A_fEta0_48f0Ex76G2Pq/edit?usp=sharing&ouid=101459607371582477376&rtpof=true&sd=true'"
               >
                 Live Demo
               </button>
+            </div>
+          <div class="project-summary">
+            <p><strong> ZotTripper: Route Optimization Visualizer | Python, Node.js, React, Google Maps API, Pandas, NumPy</strong></p>
+            <p>• Cleaned and processed 350+ addresses using geocoding and validation logic; stored structured data for downstream use</p>
+            <p>• Developed route optimization models using 2-opt, 3-opt, and Lin-Kernighan heuristics for efficient routing</p>
+            <p>• Analyzed distance improvements via Haversine metrics, iteratively benchmarking against greedy baselines</p>
+            <p>• Deployed UI with React and plotted dynamic route visualizations through the Google Maps SDK</p>
+          </div>
+
+
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/smartcart.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">SmartCart</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/mihirb1/SmartCart'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=w34wpBH7ESw'"
+              >
+                Live Demo
+              </button>
+            </div>
+            <div class="project-summary">
+            <p><strong>  SmartCart: Virtual Shopping Assistant | Flask, Python, Bootstrap CSS, MySQL, BeautifulSoup, EC2, Nginx, Docker </strong></p>
+            <p>• Deployed a Flask server in a Docker container to identify the best-value grocery products based on user queries</p>
+            <p>• Built an ETL pipeline using AWS Lambda to scrape and transform pricing data from 1,000+ product listings, and loading
+ it into a MySQL database</p>
+            <p>• Integrated the Google Maps API to display nearby retail stores that match the product results</p>
+            <p>• Maintained a structured table format with pagination to display search results, including direct links to product pages</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/zotchef.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">ZotChef</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/mihirb1/ZotChef'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://google.com'"
+              >
+                Live Demo
+              </button>
+             
+            </div>
+            <div class="project-summary">
+              <p><strong>   ZotChef: From Receipts to Recipes | React, Flask, Tesseract OCR Gemini-1.5, Spoonacular API, EC2, S3 </strong></p>
+              <p>• Developed a full-stack application for processing grocery receipts and recommending recipes using React and Flask</p>
+              <p>• Utilized Tesseract OCR and Pytesseract to extract text from receipt images, achieving 93% accuracy, and standardized
+ ingredient names with Google Gemini-1.5 flash</p>
+              <p>• Fetched ingredients and instructions from the Spoonacular API to generate and display 20-25 recipes</p>
+              <p>• Hosted the frontend on an S3 bucket and the backend on an EC2 instance with an Nginx reverse proxy</p>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
-                alt="Project 3"
+                src="./assets/pneumonia.png"
+                alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title" id="smaller">Pneumonia Detection</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://google.com'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://docs.google.com/presentation/d/1wODpJbpgKGE0c3kgCVt-rtUqn-MFPsx6sO_QIh8uyHc/edit?usp=sharing'"
               >
                 Live Demo
               </button>
             </div>
+              <div class="project-summary">
+                <p><strong>  Pneumonia Detection: Computer Vision On X-Ray Scans | Python, Pandas, Scikit-learn, Numpy, TensorFlow </strong></p>
+                <p>• Employed transfer learning with the VGG-16 model to achieve a test accuracy of 88.5% and recall of 90.96%, minimizing
+ false positive cases</p>
+                <p>• Performed data augmentation techniques to enhance model generalization and reduce overfitting</p>
+                <p>• Trained a Convolutional Neural Network (CNN) with a three-layer architecture, optimizing performance over 60 epochs</p>
+                <p>• Evaluated model effectiveness with accuracy, recall, F1 score, and confusion matrices, optimizing classification
+ performance</p>
+              </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/campusconnect.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">CampusConnect</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/mihirb1/SmartCart'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=w34wpBH7ESw'"
+              >
+                Live Demo
+              </button>
+            </div>
+              <div class="project-summary">
+                <p><strong>  CampusConnect: Social Event Platform | React, TypeScript, Express, ShadCN, Google Maps, Docker </strong></p>
+                <p>• Enabled discovery and planning of 100+ campus events with like, save, and share features and auto-expiring listings to boost student interaction</p>
+                <p>• Built a responsive React UI with ShadCN styling and Google Maps, mapping event pins once they hit a 15‑like threshold</p>
+                <p>• Developed Dockerized Express API handling CRUD operations, real-time likes/saves, and automated event expiration </p>
+                <p>• Implemented TypeScript for end-to-end type safety, ensuring robust data flow and reducing runtime bugs by 30%+</p>
+              </div>
           </div>
         </div>
       </div>
@@ -342,6 +412,158 @@
         onclick="location.href='./#contact'"
       />
     </section>
+ 
+
+<section id="education">
+  <h1 class="title">Education</h1>
+  <div class="edu-sec">
+  <div class="edu-card">
+    <h2>University of California, Irvine</h2>
+    <h3><strong>Bachelor of Science in Data Science </strong></h3>
+    <h3><strong> Sep 2024 - June 2026 </strong></h3>
+
+    <h3><strong>Expected Graduation: June 2024</strong></h3>
+    <p class="subdued">Organizations: ICS Student Council, Hack at UCI, AI at UCI</p>
+
+
+    <p><strong>GPA:</strong> 3.755</p>
+
+
+    <div class="edu-subsection">
+      <p><strong>Relevant Coursework:</strong></p>
+      <ul class="edu-list">
+        <li>Probability and Statistics in Data Science</li>
+        <li>Statistical Methods for Data Analysis</li>
+        <li>Python Programming with Libraries</li>
+        <li>Intermediate Programming</li>
+        <li>Introduction to Software Engineering</li>
+        <li>Machine Learning and Data Mining</li>
+        <li>Introduction to Data Management</li>
+        <li>Human-Computer Interaction</li>
+        <li>Critical Writing on Information Technology</li>
+               
+      </ul>
+    </div>
+
+
+    <div class="edu-subsection">
+      <p><strong>Awards & Scholarships:</strong></p>
+      <div class="edu-badges">
+        <span class="badge">Dean's Honor List (All Quarters: 3x)</span>
+      </div>
+    </div>
+  </div>
+  <div class="edu-card">
+    <h2>San Jose State University</h2>
+    <h3><strong>Bachelor of Science in Computer Science</strong></h3>
+    <h3><strong>August 2022 - May 2024</strong></h3>
+
+    <h3><strong>Transferred to UC Irvine</strong></h3>
+
+
+    <!-- <p class="subdued">Organizations: ICS Student Council, Hack at UCI, AI at UCI</p> -->
+
+
+    <p><strong>GPA:</strong> 3.882</p>
+
+
+    <div class="edu-subsection">
+      <p><strong>Relevant Coursework:</strong></p>
+      <ul class="edu-list">
+        <li>Data Structures and Algorithms</li>
+        <li>Introduction to Computer Systems</li>
+        <li>Computer Architecture</li>
+        <li>Linear Algebra</li>
+        <li>Discrete Mathematics</li>
+        <li>Object-Oriented Design</li>
+        <li>Multivariable Calculus</li>
+
+
+      </ul>
+    </div>
+
+
+    <div class="edu-subsection">
+      <p><strong>Awards & Scholarships:</strong></p>
+      <div class="edu-badges">
+        <span class="badge">Dean's Honor List (All Semesters: 4x)</span>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+    <section id="publications">
+      <h1 class="title">Publications</h1>
+
+      <div class="publication-box">
+        <div class="pub-card">
+            <a href="https://www.mdpi.com/2504-4990/6/3/105" target="_blank" rel="noopener" class="shrink-text">
+              A Multi‑Objective Framework for Balancing Fairness and Accuracy in Debiasing Machine Learning Models
+            </a>
+          <p class="add-padding"><strong>Published:</strong> Machine Learning and Knowledge Extraction, September 2024</p>
+          <p class="pub-summary">
+            This paper introduces a fairness‑aware, in‑processing framework that integrates Reject Option Classification (ROC)
+            with multi‑objective optimization (NSGA‑II, PSO) to simultaneously improve accuracy and fairness (individual & group)
+            in sensitive classification tasks. Evaluated on datasets like COMPAS, German Credit, and Adult Income, the approach
+            achieved 94.3% accuracy and significantly improved fairness metrics—demonstrating better trade‑offs than existing solutions.
+          </p>
+          <div class="pub-images">
+            <img src="https://www.mdpi.com/make/make-06-00105/article_deploy/html/images/make-06-00105-g001-550.jpg" alt="Figure 1" />
+            <img src="https://www.mdpi.com/make/make-06-00105/article_deploy/html/images/make-06-00105-g004-550.jpg" alt="Figure 4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="skills">
+      <h1 class="title">Skills</h1>
+
+      <div class="details-container">
+        <div class="exp">
+          <p><strong>Languages:</strong> Python, Java, C++, R, MySQL, Microsoft SQL, JavaScript, HTML, CSS</p>
+          <p><strong>Frameworks/Libraries:</strong> Reactjs, Flask, Pandas, PyTorch, Scikit-learn, Matplotlib, TensorFlow, NumPy, Seaborn, Tableau</p>
+          <p><strong>Tools/Software:</strong> AWS, Nginx, Git, Google Gemini-1.5, Tesseract OCR, Pytesseract</p>
+          <p><strong>Scripting & Automation:</strong> PowerShell, Bash, Docker, GitHub Actions, MS Word, Excel, PowerPoint, SAS</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="certifications">
+      <p class="section__text__p1">Professional Certifications</p>
+      <h1 class="title">Certifications</h1>
+      <div class="cert-container">
+        <!-- AWS Data Engineer -->
+        <div class="cert-card">
+          <h2>AWS Data Engineer Associate</h2>
+          <p><em>In Progress</em></p>
+        </div>
+
+
+        <!-- Google Data Analytics -->
+        <div class="cert-card">
+          <h2 class="add-margin">Google Data Analytics</h2>
+          <p><em>In Progress</em></p>
+        </div>
+
+
+        <!-- Google Foundations of Cybersecurity -->
+        <div class="cert-card">
+          <h2>Google Foundations of Cybersecurity</h2>
+          <p><em>Complete</em></p>
+          <a href="https://coursera.org/share/fa42a8806adc145232d81e4f5e28f888" target="_blank" rel="noopener">
+            View Certificate
+          </a>
+        </div>
+      </div>
+    </section>
+
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -352,7 +574,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:mihirborkar2004@gmail.com">mihirborkar2004@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -360,7 +582,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/mihir-borkar/">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -369,14 +591,25 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#journey">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#education">Publications</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+
             <li><a href="#contact">Contact</a></li>
+
+
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2025 Mihir Borkar. All Rights Reserved.</p>
     </footer>
+   
     <script src="script.js"></script>
   </body>
 </html>
+
+
+
