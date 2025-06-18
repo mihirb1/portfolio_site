@@ -197,222 +197,207 @@ I am currently pursuing the AWS Data Engineer Associate certification and seekin
       </div>  
     </section>
 
+  <section id="projects">
+    <div class="project">
+      <div class="project-split-container slideshow-wrapper">
+        <!-- Slideshow -->
+        <div class="project-image-left slideshow">
+          <img src="./assets/mediscan.png" class="slide active" alt="MediScan Screenshot 1" />
+          <img src="./assets/mediscan2.png" class="slide" alt="MediScan Screenshot 2" />
+          <img src="./assets/mediscan3.png" class="slide" alt="MediScan Screenshot 3" />
+          <img src="./assets/mediscan4.png" class="slide" alt="MediScan Screenshot 4" />
+
+          <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+          <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+
+        <!-- Description -->
+        <div class="project-description-right">
+          <h2 class="project-title-split">MediScan AI: Clinical Q&A + Recommendation System</h2>
+          <p class="project-text">
+MediScan AI delivers real-time medical insights via an AI agent connected to Claude 3.7 through Bedrock. Users can fill out a dynamic form (AI agent), chat via Lex, or upload PDFs—parsed with Textract—to receive personalized recommendations. It integrates a custom SageMaker Random Forest classifier trained on structured EHR data to predict diagnoses, while all extracted data is processed into a structured S3 knowledge base.          </p>
+          <p class="tech-label"><strong>Technologies Used:</strong></p>
+          <div class="tech-tags">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">SageMaker</span>
+            <span class="tech-badge">AWS Lambda</span>
+            <span class="tech-badge">Textract</span>
+            <span class="tech-badge">S3</span>
+            <span class="tech-badge">React</span>
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Jongmin035/MedScanAI'">View on GitHub</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.youtube.com/watch?v=AOd4VMXIYWQ'">Watch Demo</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://devpost.com/software/mediscanai-e6qip2'">Devpost</button>          
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ZotTripper -->
+    <div class="project">
+      <div class="project-split-container slideshow-wrapper">
+        <div class="project-image-left slideshow">
+          <img src="./assets/zottripper.png" class="slide active" alt="ZotTripper Screenshot 1" />
+          <img src="./assets/zottripper2.png" class="slide active" alt="ZotTripper Screenshot 2" />
+          <img src="./assets/zottripper3.png" class="slide active" alt="ZotTripper Screenshot 3" />
+          <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+          <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        <div class="project-description-right">
+          <h2 class="project-title-split">ZotTripper: Route Optimization Visualizer</h2>
+          <p class="project-text">
+            ZotTripper visualizes optimized campus routes by applying 2-opt, 3-opt, and Lin-Kernighan algorithms to 350+ geocoded addresses. The app benchmarks routes against greedy baselines and displays dynamic paths using the Google Maps API.
+          </p>
+          <p class="tech-label"><strong>Technologies Used:</strong></p>
+          <div class="tech-tags">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">Google Maps API</span>
+            <span class="tech-badge">Pandas</span>
+            <span class="tech-badge">NumPy</span>
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kyleyuen-git/ZotTripper'">View on GitHub</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://docs.google.com/presentation/d/1yNMBA6i4kUA9A_fEta0_48f0Ex76G2Pq'">Watch Demo</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://devpost.com/software/zottripper'">Devpost</button>          
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SmartCart -->
+    <div class="project">
+      <div class="project-split-container slideshow-wrapper">
+        <div class="project-image-left slideshow">
+          <img src="./assets/smartcart.png" class="slide active" alt="SmartCart Screenshot 1" />
+          <img src="./assets/smartcart2.png" class="slide active" alt="SmartCart Screenshot 2" />
+          <img src="./assets/smartcart3.png" class="slide active" alt="SmartCart Screenshot 3" />
+
+          <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+          <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        <div class="project-description-right">
+          <h2 class="project-title-split">SmartCart: Virtual Shopping Assistant</h2>
+          <p class="project-text">
+            SmartCart identifies the best-value groceries using a Flask backend with Docker and a Lambda-based scraping pipeline for 1,000+ listings. Results are paginated with direct store links and mapped via Google Maps integration.
+          </p>
+          <p class="tech-label"><strong>Technologies Used:</strong></p>
+          <div class="tech-tags">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">Flask</span>
+            <span class="tech-badge">MySQL</span>
+            <span class="tech-badge">Docker</span>
+            <span class="tech-badge">AWS Lambda</span>
+            <span class="tech-badge">Google Maps API</span>
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/mihirb1/SmartCart'">View on GitHub</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.youtube.com/watch?v=w34wpBH7ESw'">Watch Demo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ZotChef -->
+    <div class="project">
+      <div class="project-split-container slideshow-wrapper">
+        <div class="project-image-left slideshow">
+          <img src="./assets/zotchef.png" class="slide active" alt="ZotChef Screenshot 1" />
+          <img src="./assets/zotchef2.png" class="slide active" alt="ZotChef Screenshot 2" />
+          <img src="./assets/zotchef3.png" class="slide active" alt="ZotChef Screenshot 3" />
+
+          <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+          <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        <div class="project-description-right">
+          <h2 class="project-title-split">ZotChef: From Receipts to Recipes</h2>
+          <p class="project-text">
+            ZotChef extracts ingredients from grocery receipts using Tesseract OCR and Gemini-1.5, then fetches personalized recipe suggestions via Spoonacular API. Hosted with Flask on EC2 and React on S3.
+          </p>
+          <p class="tech-label"><strong>Technologies Used:</strong></p>
+          <div class="tech-tags">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">Flask</span>
+            <span class="tech-badge">Tesseract OCR</span>
+            <span class="tech-badge">Gemini-1.5</span>
+            <span class="tech-badge">S3</span>
+            <span class="tech-badge">EC2</span>
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/mihirb1/ZotChef'">View on GitHub</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pneumonia Detection -->
+    <div class="project">
+      <div class="project-split-container slideshow-wrapper">
+        <div class="project-image-left slideshow">
+          <img src="./assets/pneumonia.png" class="slide active" alt="Pneumonia Detection Screenshot 1" />
+          <img src="./assets/pneumonia2.png" class="slide active" alt="Pneumonia Detection Screenshot 2" />
+          <img src="./assets/pneumonia3.png" class="slide active" alt="Pneumonia Detection Screenshot 3" />
+
+          <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+          <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        <div class="project-description-right">
+          <h2 class="project-title-split">Pneumonia Detection: Deep Learning on X-Rays</h2>
+          <p class="project-text">
+            This model uses VGG-16 with transfer learning and CNNs to detect pneumonia in chest X-rays, achieving 88.5% accuracy and 90.96% recall. Data augmentation and F1-score metrics helped optimize performance.
+          </p>
+          <p class="tech-label"><strong>Technologies Used:</strong></p>
+          <div class="tech-tags">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">TensorFlow</span>
+            <span class="tech-badge">Scikit-learn</span>
+            <span class="tech-badge">NumPy</span>
+            <span class="tech-badge">Pandas</span>
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://docs.google.com/presentation/d/1wODpJbpgKGE0c3kgCVt-rtUqn-MFPsx6sO_QIh8uyHc'">Watch Demo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CampusConnect -->
+    <div class="project">
+      <div class="project-split-container slideshow-wrapper">
+        <div class="project-image-left slideshow">
+          <img src="./assets/campusconnect.png" class="slide active" alt="CampusConnect Screenshot 1" />
+          <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+          <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        <div class="project-description-right">
+          <h2 class="project-title-split">CampusConnect: Social Event Platform</h2>
+          <p class="project-text">
+            CampusConnect helps students explore 100+ campus events with like/save/share features and auto-expiring listings. Built with React + ShadCN, it includes Google Maps pins and a Dockerized Express API with full CRUD.
+          </p>
+          <p class="tech-label"><strong>Technologies Used:</strong></p>
+          <div class="tech-tags">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">TypeScript</span>
+            <span class="tech-badge">Express</span>
+            <span class="tech-badge">Google Maps API</span>
+            <span class="tech-badge">Docker</span>
+            <span class="tech-badge">ShadCN</span>
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/mihirb1/campus_connect'">View on GitHub</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
 
    
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/mediscan.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">MediScan AI</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Jongmin035/MedScanAI'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://www.youtube.com/watch?v=AOd4VMXIYWQ'"
-              >
-                Live Demo
-              </button>
-            </div>
-          <div class="project-summary">
-            <p><strong>MediScanAI: Clinical QA + Recommendation System | Python, SageMaker, S3, Lambda, Textract, React</strong></p>
-            <p>• Trained a Random Forest classifier on structured EHR data using SageMaker, achieving 91% classification accuracy</p>
-            <p>• Parsed unstructured clinical documents using Textract + Lambda, transforming extracted text into an S3-based structured knowledge base</p>
-            <p>• Delivered real-time patient Q&A functionality using an LLM-based chatbot trained on a curated dataset of 300+ treatments</p>
-            <p>• Integrated LLM responses via a RAG pipeline using structured data, powered by a Bedrock AI agent (Claude 3.7)</p>
-          </div>
-
-
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/zottripper.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">ZotTripper</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/kyleyuen-git/ZotTripper'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://docs.google.com/presentation/d/1yNMBA6i4kUA9A_fEta0_48f0Ex76G2Pq/edit?usp=sharing&ouid=101459607371582477376&rtpof=true&sd=true'"
-              >
-                Live Demo
-              </button>
-            </div>
-          <div class="project-summary">
-            <p><strong> ZotTripper: Route Optimization Visualizer | Python, Node.js, React, Google Maps API, Pandas, NumPy</strong></p>
-            <p>• Cleaned and processed 350+ addresses using geocoding and validation logic; stored structured data for downstream use</p>
-            <p>• Developed route optimization models using 2-opt, 3-opt, and Lin-Kernighan heuristics for efficient routing</p>
-            <p>• Analyzed distance improvements via Haversine metrics, iteratively benchmarking against greedy baselines</p>
-            <p>• Deployed UI with React and plotted dynamic route visualizations through the Google Maps SDK</p>
-          </div>
-
-
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/smartcart.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">SmartCart</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/mihirb1/SmartCart'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://www.youtube.com/watch?v=w34wpBH7ESw'"
-              >
-                Live Demo
-              </button>
-            </div>
-            <div class="project-summary">
-            <p><strong>  SmartCart: Virtual Shopping Assistant | Flask, Python, Bootstrap CSS, MySQL, BeautifulSoup, EC2, Nginx, Docker </strong></p>
-            <p>• Deployed a Flask server in a Docker container to identify the best-value grocery products based on user queries</p>
-            <p>• Built an ETL pipeline using AWS Lambda to scrape and transform pricing data from 1,000+ product listings, and loading
- it into a MySQL database</p>
-            <p>• Integrated the Google Maps API to display nearby retail stores that match the product results</p>
-            <p>• Maintained a structured table format with pagination to display search results, including direct links to product pages</p>
-          </div>
-          </div>
-        </div>
-      </div>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/zotchef.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">ZotChef</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/mihirb1/ZotChef'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://google.com'"
-              >
-                Live Demo
-              </button>
-             
-            </div>
-            <div class="project-summary">
-              <p><strong>   ZotChef: From Receipts to Recipes | React, Flask, Tesseract OCR Gemini-1.5, Spoonacular API, EC2, S3 </strong></p>
-              <p>• Developed a full-stack application for processing grocery receipts and recommending recipes using React and Flask</p>
-              <p>• Utilized Tesseract OCR and Pytesseract to extract text from receipt images, achieving 93% accuracy, and standardized
- ingredient names with Google Gemini-1.5 flash</p>
-              <p>• Fetched ingredients and instructions from the Spoonacular API to generate and display 20-25 recipes</p>
-              <p>• Hosted the frontend on an S3 bucket and the backend on an EC2 instance with an Nginx reverse proxy</p>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/pneumonia.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title" id="smaller">Pneumonia Detection</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://google.com'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://docs.google.com/presentation/d/1wODpJbpgKGE0c3kgCVt-rtUqn-MFPsx6sO_QIh8uyHc/edit?usp=sharing'"
-              >
-                Live Demo
-              </button>
-            </div>
-              <div class="project-summary">
-                <p><strong>  Pneumonia Detection: Computer Vision On X-Ray Scans | Python, Pandas, Scikit-learn, Numpy, TensorFlow </strong></p>
-                <p>• Employed transfer learning with the VGG-16 model to achieve a test accuracy of 88.5% and recall of 90.96%, minimizing
- false positive cases</p>
-                <p>• Performed data augmentation techniques to enhance model generalization and reduce overfitting</p>
-                <p>• Trained a Convolutional Neural Network (CNN) with a three-layer architecture, optimizing performance over 60 epochs</p>
-                <p>• Evaluated model effectiveness with accuracy, recall, F1 score, and confusion matrices, optimizing classification
- performance</p>
-              </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/campusconnect.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">CampusConnect</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/mihirb1/SmartCart'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://www.youtube.com/watch?v=w34wpBH7ESw'"
-              >
-                Live Demo
-              </button>
-            </div>
-              <div class="project-summary">
-                <p><strong>  CampusConnect: Social Event Platform | React, TypeScript, Express, ShadCN, Google Maps, Docker </strong></p>
-                <p>• Enabled discovery and planning of 100+ campus events with like, save, and share features and auto-expiring listings to boost student interaction</p>
-                <p>• Built a responsive React UI with ShadCN styling and Google Maps, mapping event pins once they hit a 15‑like threshold</p>
-                <p>• Developed Dockerized Express API handling CRUD operations, real-time likes/saves, and automated event expiration </p>
-                <p>• Implemented TypeScript for end-to-end type safety, ensuring robust data flow and reducing runtime bugs by 30%+</p>
-              </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
- 
 
 <section id="education">
   <h1 class="title">Education</h1>
